@@ -1,0 +1,50 @@
+[
+    {
+        "name": "zapatos de charol",
+        "description": "Zapatos relucientes traidos desde Italia, con la mayor comodidad",
+        "variants": [
+            {
+                "name": "Talla 36", "price": 15000
+            },
+            {
+                "name": "Talla 40", "price": 19000.2
+            }
+        ]
+    },
+    {
+        "name": "leggis",
+        "description": "Hecho de Nailon en la ciudad de medellin, con la mejor calidad.",
+        "variants": [
+            {
+                "name": "Talla 28", "price": 75225.6
+            },
+            {
+                "name": "Talla 32", "price": 49000
+            }
+        ]
+    },
+    {
+        "name": "Chaqueta",
+        "description": "Cómoda para días de concierto en el rock al parque en la ciudad de bogota",
+        "variants": [
+            {
+                "name": "Cuero", "price": 250000.55
+            },
+            {
+                "name": "Lana", "price": 89560
+            }
+        ]
+    },
+    {
+        "name": "Gorra",
+        "description": "Ideal para días que hace mucho sol.",
+        "variants": [
+            {
+                "name": "Verde", "price": 210000.854
+            },
+            {
+                "name": "Roja", "price": 250000.56
+            }
+        ]
+    }
+]
