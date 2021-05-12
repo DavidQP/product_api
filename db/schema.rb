@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2021_05_11_221151) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.text "description"
@@ -24,7 +27,7 @@ ActiveRecord::Schema.define(version: 2021_05_11_221151) do
     t.integer "price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "product_id", null: false
+    t.bigint "product_id", null: false
     t.index ["product_id"], name: "index_variants_on_product_id"
   end
 
