@@ -46,5 +46,93 @@
                 "name": "Roja", "price": 250000.56
             }
         ]
+    },
+    {
+        "description": "Este producto no tiene nombre.",
+        "variants": [
+            {
+                "name": "Blanco", "price": 24600
+            },
+            {
+                "name": "Negro", "price": 147000
+            }
+        ]
+    },
+    {
+        "name": "Sombrero",
+        "variants": [
+            {
+                "name": "Verde", "price": 210000.854
+            },
+            {
+                "name": "Roja", "price": 250000.56
+            }
+        ]
+    },
+    {
+        "name": "Manilla",
+        "description": "Brazalete de adorno.",
+        "variants": [
+            {
+                "name": "Cuero"
+            },
+            {
+                "price": 7700
+            }
+        ]
+    },
+
+    {
+        "name": "Carro deportivo",
+        "description": "Posee una velocidad máxima de 200 KM/Hr."
+    },
+
+    {
+        "name": "Paraguas",
+        "description": "Ideal para días lluviosos o bien soleados.",
+        "variants": [
+            {
+                "name": "Azul oscuro" ,"price": 210000.854
+            },
+            {
+                "name": "Amarillo", "price": 78500
+            }
+        ]
+    },
+    {
+        "name": "                  ",
+        "description": "Ideal para días lluviosos o bien soleados.",
+        "variants": [
+            {
+                "name": "Azul oscuro" ,"price": 210000.854
+            },
+            {
+                "name": "Amarillo", "price": 78500
+            }
+        ]
+    },
+    {
+        "name": "Paraguas",
+        "description": "   ",
+        "variants": [
+            {
+                "name": "Azul oscuro" ,"price": 210000.854
+            },
+            {
+                "name": "Amarillo", "price": 78500
+            }
+        ]
+    },
+    {
+        "name": "Chaqueta impermeable",
+        "description": "Cómoda para los dias de lluvia y facil de secar.",
+        "variants": [
+            {
+                "name": "Azul oscuro" ,"price": 0
+            },
+            {
+                "name": "Amarillo", "price": 0
+            }
+        ]
     }
 ]

@@ -4,5 +4,6 @@ class Product < ApplicationRecord
 
     has_many :variants, dependent: :destroy
 
+    validates :variants, :length => { :minimum => 1}
 
 end
