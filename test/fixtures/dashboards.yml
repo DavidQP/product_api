@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uploaded: 1
+  not_uploaded: 1
+  total: 1
+
+two:
+  uploaded: 1
+  not_uploaded: 1
+  total: 1

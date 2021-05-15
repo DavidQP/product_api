@@ -10,10 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_12_034600) do
+ActiveRecord::Schema.define(version: 2021_05_14_101042) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "dashboards", force: :cascade do |t|
+    t.integer "uploaded"
+    t.integer "not_uploaded"
+    t.integer "total"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.time "start_time"
+    t.time "end_time"
+    t.float "loading_time"
+  end
 
   create_table "products", force: :cascade do |t|
     t.string "name"

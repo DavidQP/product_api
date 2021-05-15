@@ -1,6 +1,6 @@
 class Product < ApplicationRecord
-    validates :name, presence: true
-    validates :description, presence: true
+    validates :name, presence: true, allow_blank: false
+    validates :description, presence: true, allow_blank: false
 
     has_many :variants, dependent: :destroy
 
